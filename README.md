@@ -14,11 +14,11 @@ And deploy a full strategy like hedging over instrument and hedging over correla
 
 -MQ4 version
 
--Success ratio
+-Improve Success ratio by adding more neurons
 
 -Add GaussianNoise at each input layer to reduce overfitting and increas performance on test data
 
--I detected some output neuron witout activation we need to add dropout to force neurons activaction and reduce overfitting
+-I detected some output neuron without activation we need to add dropout to force neurons activaction and reduce overfitting
 
 -Add normalization at each layer output
 
@@ -26,7 +26,7 @@ And deploy a full strategy like hedging over instrument and hedging over correla
 
 -Try optimization with Simulation Annelaning
 
--Implement Neuro Evolution Augmented Topologies (NEAT) to self optimized network arquitecture
+-Implement Neuro Evolution Augmented Topologies (NEAT) to self optimized network architecture
 
 
 
